@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hii</h1>
+
+    <script>
+        let num=Math.round(Math.random()*100)
+        let chances=0
+        while(true){
+            let userchoice=parseInt(prompt("guess the number"))
+            if(userchoice==num){
+         console.log("congrats you guessed the correct number")
+        break
+            }
+            else if(userchoice<num){
+                console.log("You entered a small number take a bigger guess!")
+            }
+            else{
+                console.log("you entered a big number take a smaller guess!")
+            }
+            
+            chances++
+        }
+        console.log("your no. of guesses is=",chances)
+    </script>
+</body>
+</html>

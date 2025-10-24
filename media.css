@@ -1,0 +1,46 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+    .row .links a{
+        font-size: 15px;
+    }
+    .circleimg{
+        height: 260px;
+        width: 260px;
+        margin-left: -14px;
+    }
+    .circleimg img{
+        height: 240px;
+        width: 240px;
+    }
+    .experience .container .row div div h1{
+        font-size: 21px;
+    }
+    .experience .container .row div div p{
+        font-size: 9px;
+    }
+    .content-info .btnlinkedin{
+        width: 100%;
+    }
+    .skills-section .container .row .sk div{
+        top: 20px;
+    }
+    /*slider*/
+    .carousel-item {
+        padding: 20px 10px;
+      }
+
+      .carousel-item h3 {
+        font-size: 1.25rem;
+      }
+
+      .carousel-item p {
+        font-size: 0.9rem;
+      }
+      .contact-section .container .row div .linked i,.contact-section .container .row div .linked p{
+        display: none;
+    }
+    /*background*/
+    #tsparticles {
+    display: none !important;
+  }
+   
+}
